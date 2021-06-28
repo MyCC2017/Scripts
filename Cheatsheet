@@ -1,0 +1,101 @@
+This is our Cheat sheet / Linux Guide
+
+uname -a = shows system/version information
+lscpu = shows cpu informaiton
+lspci = shows motherboard information
+fdisk = cli & mbr only
+gdisk = cli & gpt only
+libparted = both & both
+ifconfig/iwconfig = interface configurations
+ip addr show  = ip information
+route = show routing table
+ip route show = show default route
+netstat / ss = shows sockets/connections to other computers
+ping = verify conectivity
+traceroute = track the path
+host / dig / nslookup = dns info/lookup tools
+echo =  print on screen
+clear = clear the screen
+ctrl + c = break / escape / cancel command
+man = linux manual (9 volumes)
+info = another help reader - not as widely supported
+<cmd> --help = get help on this cmd
+whatis = display 1 line manual page description$ ./Pingscript
+history  = shows history of what was typed in the shell
+"tab" completion = use the tab to finish spelling/typing (auto complete)
+ps = process status 
+top = similar to task manager
+free - shows memory usage
+pwd = print the working directory (where am i)
+~ = /home/<user>
+ls =list contents (look see)
+cd = change directory
+$ = standard user
+# = root user
+sudo =  run as admin
+mkdir = create a directory (folder)
+rmdir = removes a directory
+touch create an empty file /update the time stamp
+gedit / nano / pico /  vi /vim = text editors
+cat = file veiwer
+rm = remove
+-----------
+ > = will create/ovewrite standard output to a file
+ >> = will create/append standard output to a file
+ 2> = will create/ovewrite error output to a file
+ 2>> = will create/append error output to a file
+ &> = will create/ovewrite both outputs to a file
+ &>> = will create/append both outputs to a file
+-----------
+cp = copy a file 
+mv  = move a file - also rename a file
+ln = Hard Link
+ln -s = Symbolic (soft) Link -(shortcut) 
+find = look for a file based on its argument
+grep = looks for something in something
+wc = word count- number of line /words /file size
+-----------
+tar = tape archiver - back-up tool
+ -c = create
+  v = verbose (how on the screen)
+  f = filename
+  x = eXtract (pull the data from the archive)
+  t = list the contents
+  z = comress usign gzip
+-cvf or -czvf or -tvf or -xvf  
+-----------
+zip = compression & archiving tool
+gzip /gunzip = compression utility
+bzip2 / bunzip2 = compression utility
+xz / unxz = compression utility
+-----------
+dpkg = low level package manager (Debian)
+apt or apt-get for Debian systems = Installer 
+rpm = low level package manager (RedHat)
+yum or dnf for RedHat systems = Installer
+-----------
+chmod =  change/modify permissions
+User  Group  Other
+Read = 4   Write = 2   eXecute = 1
+chown = change owner:group
+chgrp = change group
+/etc/passwd =  accounts file
+/etc/shadow = password file
+/etc/group = group file
+whoami =  the user
+id = show uid & name, group id & name, all other groups a member of
+who =  who is logged in
+w = like who, but more info
+-----------
+ * becoming legacy *
+useradd
+usermod
+userdel
+groupadd
+groupmod
+groupdel
+-----------
+ * new & improved * 
+adduser
+-----------
+

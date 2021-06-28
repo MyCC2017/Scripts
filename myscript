@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# this file is my first script
+# this line is just me typing
+# this line does not serve a purpose
+
+
+date &
+
+ls / &
+
+touch file1
+
+cp file1 file2
+
+echo " doing some stuff"
+
+
+
+
+

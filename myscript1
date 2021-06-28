@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This is my 1st script file
+
+# I hope it works
+
+echo "Here i come to save the day!"
+
+
+cowsay "Looking for .txt files" 
+
+find / -name *.txt > Found.txt 2> Find_Errors.txt
+
+echo "Looking at Found.txt"
+gedit Found.txt
+echo "Have a grest day!"
+

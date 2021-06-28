@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# This been a long day
+
+echo "Here comes FIREFOX!!!"
+
+/usr/bin/firefox &
+
+
+
+

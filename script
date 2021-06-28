@@ -1,0 +1,17 @@
+# This will do some stuff
+#!/bin/bash
+
+
+/usr/bin/firefox &
+/usr/bin/thunderbird &
+
+
+echo "Firefox & Thunderbird on the way!!"
+
+
+
+
+
+
+
+

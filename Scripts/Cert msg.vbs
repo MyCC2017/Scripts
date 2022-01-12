@@ -1,7 +1,0 @@
-x=msgbox("Lets get ready to Cert!!!", 5+64, "Cert Window")
-x=msgbox("Lets get ready to Cert!!!", 5+64, "Cert Window")
-x=msgbox("Lets get ready to Cert!!!", 5+64, "Cert Window")
-x=msgbox("Lets get ready to Cert!!!", 5+64, "Cert Window")
-x=msgbox("Lets get ready to Cert!!!", 5+64, "Cert Window")
-x=msgbox("Lets get ready to Cert!!!", 5+64, "Cert Window")
-x=msgbox("Lets get ready to Cert!!!", 5+64, "Cert Window")
